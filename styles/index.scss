@@ -1,0 +1,24 @@
+//IMPORT ALL STYLES INTO THIS FILE
+//BEAWARE OF THE ORDER THEY COME IN
+@import './base/reset';
+
+@import './utils/variables';
+@import './utils/function';
+@import './utils/mixins';
+@import './utils/vendors';
+@import './utils/responsive';
+
+@import './base/fonts';
+@import './base/base';
+
+@import './shared/descriptions';
+@import './shared/titles';
+
+@import './layout/header';
+@import './layout/footer';
+
+@import './pages/404/404';
+
+@import './pages/about/about';
+
+@import './pages/home/home';

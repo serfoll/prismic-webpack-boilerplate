@@ -1,0 +1,64 @@
+%title-34 {
+  font-family: $font-fraunces;
+  font-size: 3.4rem;
+  font-weight: 900;
+
+  @include media('>phone') {
+    font-size: 1.6rem;
+  }
+}
+
+%title-62 {
+  font-family: $font-fraunces;
+  font-size: 6.2rem;
+  font-weight: 900;
+
+  @include media('>phone') {
+    font-size: 4rem;
+  }
+}
+
+%title-50 {
+  font-family: $font-fraunces;
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 1.15;
+
+  @include media('>phone') {
+    font-size: 2.7rem;
+    line-height: 1.2;
+  }
+}
+
+%title-53 {
+  font-family: $font-fraunces;
+  font-size: 5.3rem;
+}
+
+%title-80 {
+  font-family: $font-fraunces;
+  font-size: 8rem;
+
+  @include media('>phone') {
+    font-size: 5rem;
+  }
+}
+
+%title-100 {
+  font-family: $font-fraunces;
+  font-size: 10rem;
+}
+
+%title-120 {
+  font-family: $font-fraunces;
+  font-size: 12rem;
+
+  @include media('<phone') {
+    font-size: 18rem;
+  }
+}
+
+%title-200 {
+  font-family: $font-fraunces;
+  font-size: 20rem;
+}

@@ -1,0 +1,69 @@
+doctype html
+block variables
+html(lang='en')
+  head
+    meta(http-equiv='Content-Type', content='text/html;charset=UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+
+    base(href='/')
+
+    title= meta.data.title
+
+    //- useful for seo
+
+    meta(
+      name='description',
+      content=meta.data.descprition ? meta.data.descprition : 'Sunnyside Agency'
+    )
+
+    //- faveicon for different browsers and devices
+
+    link(rel='apple-touch-icon', sizes='60x60', href='/apple-touch-icon.png')
+    link(
+      rel='icon',
+      type='image/png',
+      sizes='32x32',
+      href='/favicon-32x32.png'
+    )
+    link(
+      rel='icon',
+      type='image/png',
+      sizes='16x16',
+      href='/favicon-16x16.png'
+    )
+
+    //- what to display when website is shared on fb
+
+    meta(property='og:type', content='website')
+    meta(property='og:title', content=meta.data.title)
+    meta(
+      property='og:descprition',
+      content=meta.data.descprition ? meta.data.descprition : 'Sunnyside Agency'
+    )
+    meta(
+      property='og:image',
+      content=meta.data.image ? meta.data.image.url : ''
+    )
+
+    //- what display when website is shared on twitter
+
+    meta(property='twitter:card', content='summary_large_image')
+    meta(property='twitter:title', content=meta.data.title)
+    meta(
+      property='twitter:descprition',
+      content=meta.data.descprition ? meta.data.descprition : ''
+    )
+    meta(
+      property='twitter:image',
+      content=meta.data.image ? meta.data.image.url : ''
+    )
+
+    link(rel='stylesheet', href='main.css')
+
+  body
+    include ./partials/header
+
+    #content.content(data-template=template, role='main')
+      block content
+
+    include ./partials/footer

@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: calc(100vw / 750 * 10);
+  line-height: 1;
+
+  @include media('>phone', '>=desktop') {
+    font-size: calc(1440px / 1440 * 10);
+  }
+
+  // @include media('>desktop') {
+  //   font-size: calc(1440px / 1920 * 10);
+  // }
+}
+
+body {
+  font-family: $font-barlow;
+  font-weight: 600;
+
+  @include media('>desktop') {
+    width: 1440px;
+    overflow-x: auto;
+    margin: auto;
+  }
+}
+
+a {
+  color: inherit;
+  outline: none;
+  text-decoration: none;
+}
+
+button {
+  background-color: rgba($color-white, 0);
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+img {
+  vertical-align: middle;
+  width: 100%;
+}

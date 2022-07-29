@@ -1,0 +1,20 @@
+$color-black: #000;
+$color-bittersweet: #fe7867;
+$color-white: #fff;
+
+$font-barlow: 'Barlow', sans-serif;
+$font-fraunces: 'Fraunces', sans-serif;
+
+$padding-wrapper: 2.4rem;
+
+$ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
+
+$z-indexes: (
+  'noscript',
+  'preloader',
+  'cursor',
+  'navigation',
+  'content',
+  'cases',
+  'canvas'
+);

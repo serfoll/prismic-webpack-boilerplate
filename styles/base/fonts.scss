@@ -1,0 +1,43 @@
+/* fraunces-700 - latin */
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/fraunces-v22-latin-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+    url('../fonts/fraunces-v22-latin-700.eot?#iefix')
+      format('embedded-opentype'),
+    /* Modern Browsers */ url('../fonts/fraunces-v22-latin-700.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */
+      url('../fonts/fraunces-v22-latin-700.svg#Fraunces') format('svg'); /* Legacy iOS */
+}
+
+/* fraunces-900 - latin */
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/fraunces-v22-latin-900.eot'); /* IE9 Compat Modes */
+  src: local(''),
+    url('../fonts/fraunces-v22-latin-900.eot?#iefix')
+      format('embedded-opentype'),
+    /* Modern Browsers */ url('../fonts/fraunces-v22-latin-900.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */
+      url('../fonts/fraunces-v22-latin-900.svg#Fraunces') format('svg'); /* Legacy iOS */
+}
+
+/* barlow-600 - latin */
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/barlow-v12-latin-600.eot'); /* IE9 Compat Modes */
+  src: local(''),
+    url('../fonts/barlow-v12-latin-600.eot?#iefix') format('embedded-opentype'),
+    /* Modern Browsers */ url('../fonts/barlow-v12-latin-600.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */ url('../fonts/barlow-v12-latin-600.svg#Barlow')
+      format('svg'); /* Legacy iOS */
+}
